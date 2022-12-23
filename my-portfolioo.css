@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+    body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url(pexels-tyler-lastovich-937782.jpg);
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+   }
+     
+.nav1 {
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.nav1 :hover {
+    color:#fffc46;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .4s;
+}
+
+a {
+    padding: 75px;
+    text-decoration: none; 
+    font-size:x-large; font-family: monospace;
+}
+
+h1, h2 {
+    margin: 30px;
+    font-family: monospace; font-weight: 400; 
+}
+
+
+.section1, .section2 {
+    text-align: center;
+    font-size: x-large; font-family: monospace; font-weight: 400;
+    color: #030301;;
+    margin: 50px;
+}   
+
+.section1 :hover {
+    color: #fffd7a;;
+}
+
+.section2 :hover {
+    color: #fffc46;;
+}
+
+ul {
+    text-align:left ;
+    font-size: x-large; font-family: monospace;
+    list-style: circle;
+}
+
+footer{
+    padding:10px; margin: 45px;
+    color:darkblue;
+    font-size: x-large; font-family: monospace; font-weight: 400;
+}
+
+
+footer :hover {
+    color: #fffc46;
+    cursor: pointer;
+}
